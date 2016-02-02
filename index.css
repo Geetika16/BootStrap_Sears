@@ -41,35 +41,45 @@ padding-left:20px;
 /* Increase font of menu items  */
 .col-sm-9 .row .navbar  .container-fluid .collapse ul li a {font-size:1.2em; color:#446CB3;}
 
+/* Add margin to images in left section*/
 .row .col-sm-3 img {
 margin-left:6px;
 margin-right:6px;
-
 }
+
+/* Set min-height & height for images in thumbnail class */
 .thumbnail img { min-height:100px; height:120px; } 
 
+/* Set color & font-size to paragraphs*/
 .p1 {
 color:#663399;
 font-size:1.3em;
 }
 
+/* Set padding to paragraphs*/
 .p2 {
 
 padding-left:15px;
 }
+
+/* Color to heading h4*/
 h4 {
 color:#663399;
 }
+
+/* Remove border-radius & set height to auto*/
 .thumbnail 
 {
 borde-radius:0;
 height:auto;
 }
 
+/* Set float property of image in section*/
 .row .col-sm-6 img {
 float:left;
-
 }
+
+/*  set overflow auto to div*/
 .row .col-sm-6 .well {
 overflow:auto;
 }
