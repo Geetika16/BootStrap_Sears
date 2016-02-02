@@ -1,0 +1,75 @@
+
+/* Apply font to body */
+body {
+font-family: 'Open Sans', sans-serif;
+}
+
+/* Background color to header, footer and set color */
+.header , footer{
+background-color:#3A539B;
+border-radius:0;
+color:white;
+}
+
+/* Align text-center to the header */
+.header .container-fluid h1, h3 {text-align:center;}
+
+/* Give padding from top to the footer */
+footer {
+padding-top:10px;
+}
+
+/*  */
+
+
+/* Background color to left column */
+.col-sm-3  .well {
+background-color:#F2F1EF;
+}
+
+/* Padding to images in thumbnail */
+.col-sm-3 .thumbnail img{
+padding-left:20px;
+}
+
+/* Float and padding to image in update section */
+#img_left {float:left;padding-right:5px;}
+
+/* algin text in page header class to center */
+.page-header {text-align:center;color:#22313F;}
+
+/* Increase font of menu items  */
+.col-sm-9 .row .navbar  .container-fluid .collapse ul li a {font-size:1.2em; color:#446CB3;}
+
+.row .col-sm-3 img {
+margin-left:6px;
+margin-right:6px;
+
+}
+.thumbnail img { min-height:100px; height:120px; } 
+
+.p1 {
+color:#663399;
+font-size:1.3em;
+}
+
+.p2 {
+
+padding-left:15px;
+}
+h4 {
+color:#663399;
+}
+.thumbnail 
+{
+borde-radius:0;
+height:auto;
+}
+
+.row .col-sm-6 img {
+float:left;
+
+}
+.row .col-sm-6 .well {
+overflow:auto;
+}
