@@ -1,0 +1,79 @@
+
+/* Apply font to body */
+body {
+font-family: 'Open Sans', sans-serif;
+}
+
+/* Background color to header, footer ,remove border-radius set color */
+header , footer{
+background-color:#3A539B;
+border-radius:0;
+color:white;
+}
+
+/* Give padding from top to the footer */
+footer {
+padding-top:20px;
+}
+
+.update{
+line-height:2em;
+}
+
+/* Float and padding to image in update section */
+#img_left {float:left;padding-right:5px;border-radius:10px;}
+
+
+/* algin text in page header class to center */
+.page-header {text-align:center;color:#1BA39C;}
+
+/* Increase font of menu items  */
+.navbar-header a {font-size:1.2em; color:#446CB3;}
+
+
+/* Set color & font-size to paragraphs*/
+.p1 {
+color:#663399;
+font-size:1.3em;
+}
+
+/* color of text in h3 tag to white*/
+h3 {color:white;}
+ 
+/* apply top & bottom padding to paragraph on left*/
+
+/* Apply properties to map */
+#googleMap{
+padding-top:20px;
+height:220px;
+width:100%;
+}
+
+/* Set float property of image in section*/
+.row .col-sm-6 img {
+float:left;
+}
+
+/* margin,height & width to iamges in panel */
+.center-block {
+    margin: 0 auto;
+	height:150px;
+	width:150px;
+}
+
+/* height and width of images in panel */
+.block1{
+	height:110px;
+	width:110px;
+}
+
+/* media query for screen size */
+@media screen and (min-width:767px) and (max-width:992px)
+{
+/* 
+.row .col-sm-6 {
+height:100%;
+
+} */
+
+}
